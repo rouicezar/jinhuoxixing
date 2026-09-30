@@ -1,0 +1,19 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本地自检产物（不入库）
+_shots/
+
+# 本地配置 / 密钥 / 环境变量（严禁提交）
+.env
+.env.*
+*.local
+*.key
+*.pem
+secrets.*
+credentials.*
+
+# 编辑器
+.idea/
+.vscode/
